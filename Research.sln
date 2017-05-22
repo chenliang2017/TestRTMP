@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Research", "Research\Research.vcxproj", "{2CC68294-C6B1-4631-99D4-9CA2B94D1110}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FlvMerge", "FlvMerge\FlvMerge.vcxproj", "{A126DA36-2735-4740-8DD5-93E29EA99A0C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RtmpPlayer", "RtmpPlayer\RtmpPlayer.vcxproj", "{9AA09F94-AF9A-432E-B74F-BB411B1F9110}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RtmpPublisher", "RtmpPublisher\RtmpPublisher.vcxproj", "{19AAECE8-7EA1-40B5-9F8A-EAE1F289AD4A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FlvParser", "FlvParser\FlvParser.vcxproj", "{FF688F39-253C-4A16-A7D6-1FFFB8AF2E42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CC68294-C6B1-4631-99D4-9CA2B94D1110}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2CC68294-C6B1-4631-99D4-9CA2B94D1110}.Debug|Win32.Build.0 = Debug|Win32
+		{2CC68294-C6B1-4631-99D4-9CA2B94D1110}.Release|Win32.ActiveCfg = Release|Win32
+		{2CC68294-C6B1-4631-99D4-9CA2B94D1110}.Release|Win32.Build.0 = Release|Win32
+		{A126DA36-2735-4740-8DD5-93E29EA99A0C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A126DA36-2735-4740-8DD5-93E29EA99A0C}.Debug|Win32.Build.0 = Debug|Win32
+		{A126DA36-2735-4740-8DD5-93E29EA99A0C}.Release|Win32.ActiveCfg = Release|Win32
+		{A126DA36-2735-4740-8DD5-93E29EA99A0C}.Release|Win32.Build.0 = Release|Win32
+		{9AA09F94-AF9A-432E-B74F-BB411B1F9110}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9AA09F94-AF9A-432E-B74F-BB411B1F9110}.Debug|Win32.Build.0 = Debug|Win32
+		{9AA09F94-AF9A-432E-B74F-BB411B1F9110}.Release|Win32.ActiveCfg = Release|Win32
+		{9AA09F94-AF9A-432E-B74F-BB411B1F9110}.Release|Win32.Build.0 = Release|Win32
+		{19AAECE8-7EA1-40B5-9F8A-EAE1F289AD4A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{19AAECE8-7EA1-40B5-9F8A-EAE1F289AD4A}.Debug|Win32.Build.0 = Debug|Win32
+		{19AAECE8-7EA1-40B5-9F8A-EAE1F289AD4A}.Release|Win32.ActiveCfg = Release|Win32
+		{19AAECE8-7EA1-40B5-9F8A-EAE1F289AD4A}.Release|Win32.Build.0 = Release|Win32
+		{FF688F39-253C-4A16-A7D6-1FFFB8AF2E42}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FF688F39-253C-4A16-A7D6-1FFFB8AF2E42}.Debug|Win32.Build.0 = Debug|Win32
+		{FF688F39-253C-4A16-A7D6-1FFFB8AF2E42}.Release|Win32.ActiveCfg = Release|Win32
+		{FF688F39-253C-4A16-A7D6-1FFFB8AF2E42}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

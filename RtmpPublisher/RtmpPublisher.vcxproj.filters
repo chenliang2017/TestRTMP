@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\FlvParser">
+      <UniqueIdentifier>{da5485a1-2f91-4a06-b1a5-7a73fbb4f98d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\LibRtmp">
+      <UniqueIdentifier>{1ef7228d-81e6-4aa4-8b2a-8c07b12fc0a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\FlvParser">
+      <UniqueIdentifier>{bf68d2f0-060f-4d63-8b56-5f8fb25df9cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LibRtmp">
+      <UniqueIdentifier>{b4b16c4c-a8b2-4a38-92eb-f4ef7c5f2876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\LibRtmp\include">
+      <UniqueIdentifier>{302672a2-d674-4c9c-9939-5b5a50682793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\LibRtmp\include\openssl">
+      <UniqueIdentifier>{d20332cc-87c9-4a8c-b066-76b072aaf786}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Global\FlvParser\FLvParser.h">
+      <Filter>头文件\FlvParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\amf.h">
+      <Filter>头文件\LibRtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\bytes.h">
+      <Filter>头文件\LibRtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\dh.h">
+      <Filter>头文件\LibRtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\dhgroups.h">
+      <Filter>头文件\LibRtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\error.h">
+      <Filter>头文件\LibRtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\handshake.h">
+      <Filter>头文件\LibRtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\http.h">
+      <Filter>头文件\LibRtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\log.h">
+      <Filter>头文件\LibRtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\rtmp.h">
+      <Filter>头文件\LibRtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\rtmp_sys.h">
+      <Filter>头文件\LibRtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="publish.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\zconf.h">
+      <Filter>头文件\LibRtmp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\zlib.h">
+      <Filter>头文件\LibRtmp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\aes.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\asn1.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\asn1_mac.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\asn1t.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\bio.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\blowfish.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\bn.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\buffer.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\camellia.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\cast.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\cmac.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\cms.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\comp.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\conf.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\conf_api.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\crypto.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\des.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\des_old.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\dh.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\dsa.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\dso.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\dtls1.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\e_os2.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ebcdic.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ec.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ecdh.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ecdsa.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\engine.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\err.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\evp.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\hmac.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\idea.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\krb5_asn.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\kssl.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\lhash.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\md4.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\md5.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\mdc2.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\modes.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\obj_mac.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\objects.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ocsp.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\opensslconf.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\opensslv.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ossl_typ.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\pem.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\pem2.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\pkcs7.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\pkcs12.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\pqueue.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\rand.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\rc2.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\rc4.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ripemd.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\rsa.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\safestack.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\seed.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\sha.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\srp.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\srtp.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ssl.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ssl2.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ssl3.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ssl23.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\stack.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\symhacks.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\tls1.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ts.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\txt_db.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ui.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ui_compat.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\whrlpool.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\x509.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\x509_vfy.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\x509v3.h">
+      <Filter>头文件\LibRtmp\include\openssl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Global\FlvParser\FlvParser.cpp">
+      <Filter>源文件\FlvParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Global\LibRtmp\amf.c">
+      <Filter>源文件\LibRtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Global\LibRtmp\error.c">
+      <Filter>源文件\LibRtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Global\LibRtmp\hashswf.c">
+      <Filter>源文件\LibRtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Global\LibRtmp\log.c">
+      <Filter>源文件\LibRtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Global\LibRtmp\parseurl.c">
+      <Filter>源文件\LibRtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Global\LibRtmp\rtmp.c">
+      <Filter>源文件\LibRtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="publish.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

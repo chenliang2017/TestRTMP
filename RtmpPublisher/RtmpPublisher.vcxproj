@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{19AAECE8-7EA1-40B5-9F8A-EAE1F289AD4A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>RtmpPublisher</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>../Global/LibRtmp/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libeay32.lib;ssleay32.lib;zlibstat.lib;ws2_32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Global\FlvParser\FLvParser.h" />
+    <ClInclude Include="..\Global\LibRtmp\amf.h" />
+    <ClInclude Include="..\Global\LibRtmp\bytes.h" />
+    <ClInclude Include="..\Global\LibRtmp\dh.h" />
+    <ClInclude Include="..\Global\LibRtmp\dhgroups.h" />
+    <ClInclude Include="..\Global\LibRtmp\error.h" />
+    <ClInclude Include="..\Global\LibRtmp\handshake.h" />
+    <ClInclude Include="..\Global\LibRtmp\http.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\aes.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\asn1.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\asn1t.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\asn1_mac.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\bio.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\blowfish.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\bn.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\buffer.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\camellia.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\cast.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\cmac.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\cms.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\comp.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\conf.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\conf_api.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\crypto.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\des.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\des_old.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\dh.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\dsa.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\dso.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\dtls1.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ebcdic.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ec.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ecdh.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ecdsa.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\engine.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\err.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\evp.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\e_os2.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\hmac.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\idea.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\krb5_asn.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\kssl.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\lhash.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\md4.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\md5.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\mdc2.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\modes.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\objects.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\obj_mac.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ocsp.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\opensslconf.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\opensslv.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ossl_typ.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\pem.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\pem2.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\pkcs12.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\pkcs7.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\pqueue.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\rand.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\rc2.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\rc4.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ripemd.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\rsa.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\safestack.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\seed.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\sha.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\srp.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\srtp.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ssl.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ssl2.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ssl23.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ssl3.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\stack.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\symhacks.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\tls1.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ts.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\txt_db.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ui.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\ui_compat.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\whrlpool.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\x509.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\x509v3.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\openssl\x509_vfy.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\zconf.h" />
+    <ClInclude Include="..\Global\LibRtmp\include\zlib.h" />
+    <ClInclude Include="..\Global\LibRtmp\log.h" />
+    <ClInclude Include="..\Global\LibRtmp\rtmp.h" />
+    <ClInclude Include="..\Global\LibRtmp\rtmp_sys.h" />
+    <ClInclude Include="publish.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Global\FlvParser\FlvParser.cpp" />
+    <ClCompile Include="..\Global\LibRtmp\amf.c" />
+    <ClCompile Include="..\Global\LibRtmp\error.c" />
+    <ClCompile Include="..\Global\LibRtmp\hashswf.c" />
+    <ClCompile Include="..\Global\LibRtmp\log.c" />
+    <ClCompile Include="..\Global\LibRtmp\parseurl.c" />
+    <ClCompile Include="..\Global\LibRtmp\rtmp.c" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="publish.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
